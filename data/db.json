@@ -1,0 +1,74 @@
+{
+  "tasks": [
+    {
+       "id":1,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":2,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":3,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":4,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":5,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":6,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":7,
+       "title":"Medalla 1er Lugar",
+       "description":"The site's layout is not responsive. It does not look good on mobile devices. We need to make sure the site looks good on all devices.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":8,
+       "title":"Medalla 1er Lugar",
+       "description":"We do not have a way for users to sign up for our newsletter. We need to add a newsletter signup form in the footer that allows users to enter their email address.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":9,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    },
+    {
+       "id":10,
+       "title":"Medalla 1er Lugar",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
+       "author":"ABM",
+       "img": "../src/assets/img/example.JPG"
+    }
+ ]
+}
