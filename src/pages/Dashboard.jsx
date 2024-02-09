@@ -23,7 +23,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const tasks = [
     description:
       "The site's layout is not responsive. It does not look good on mobile devices. We need to make sure the site looks good on all devices.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const tasks = [
     description:
       "We do not have a way for users to sign up for our newsletter. We need to add a newsletter signup form in the footer that allows users to enter their email address.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
   {
     id: 10,
@@ -95,7 +95,7 @@ const tasks = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit, ex voluptate optio adipisci.",
     author: "ABM",
-    img: "../src/assets/img/example.JPG",
+    img: "/assets/img/example.jpg",
   },
 ];
 
@@ -123,7 +123,10 @@ export default function Dashboard() {
             </CardHeader>
 
             <CardBody color="gray.500">
-              <Image src={task.img} alt={`Image for ${task.title}`} />
+              <Image
+                src={task.img}
+                alt={`Image for ${task.title}`}
+              />
               <Text>{task.description}</Text>
             </CardBody>
 
